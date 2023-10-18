@@ -9,6 +9,7 @@
 body
 {
     line-height: 1.6;
+    background-color: aliceblue;
 }
 h1
 {
@@ -38,7 +39,7 @@ form
 #search-button
 {
     padding: 10px 20px;
-    background-color: rgb(26, 128, 74);
+    background-color: gold;
     color: black;
     border:none;
     font-size: 18px;
@@ -78,7 +79,8 @@ form
 }
 .search-result:hover img
 {
-    opacity: 0.75;
+    opacity: 0.9;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
     
 
 }
